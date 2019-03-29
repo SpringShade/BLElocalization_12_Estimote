@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mu"
+            android:icon="@drawable/ic_menu_plm"
+            android:title="Path loss constant" />
+        <item
+            android:id="@+id/nav_p0"
+            android:icon="@drawable/ic_menu_p0"
+            android:title="Reference power" />
+        <item
+            android:id="@+id/nav_rssbuffer"
+            android:icon="@drawable/ic_menu_rssbuffer"
+            android:title="RSS buffer" />
+        <item
+            android:id="@+id/nav_resolution"
+            android:icon="@drawable/ic_menu_resolution"
+            android:title="Resolution" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Receive" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
